@@ -1,0 +1,20 @@
+h1:hover{
+    color:white;
+    font-size: x-large;
+    transition-duration: 0.2s;
+}
+h2:hover{
+    color:white;
+    font-size: x-large;
+    transition-duration: 0.2s;
+}
+h3:hover{
+    color:white;
+    font-size: x-large;
+    transition-duration: 0.2s;
+}
+h4:hover{
+    color:white;
+    font-size: x-large;
+    transition-duration: 0.2s;
+}
