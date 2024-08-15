@@ -1,0 +1,137 @@
+body{
+    background-image: url(backg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+*{
+    padding:0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    background-color: rgb(5,18,43);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    font-size: large;
+    background:transparent;
+    
+}
+#heads{
+    color:antiquewhite;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#heads:hover{
+    color:white;
+    font-size: larger;
+    transition-duration: 0.2s;
+    text-decoration:underline;
+}
+nav{
+    margin-right: 50px;
+}
+
+.image1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+#lol{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.edutext{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 100px;
+    margin-top: 200px;
+    padding-top: 200px;
+}
+.clgimg{
+    height: 200px;
+    width: 350px;
+    border-radius: 30px;
+    float: left;
+}
+.protext{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    justify-content: right;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.proimg{
+    height: 200px;
+    width: 370px;
+    border-radius: 20px;
+    align-items: left;
+    margin-top: 20px;
+}
+.hed{
+    padding-top: 50px;
+    padding-bottom: 280px;
+    background: linear-gradient(45deg,rgb(81,26,44),rgb(175,24,40),rgb(34,45,70),rgb(244,157,129));
+    background-size: 300% 300%;
+    animation: color 3s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position:0 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position:0 50% ;
+    }
+}
+.edu{
+    background-color: rgb(2,43,61);
+    padding-bottom: 330px;
+}
+#flex, footer,#del{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(19,36,42);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head1{
+    color: white;
+    text-decoration: none;
+    font-family: rowdies;
+    font-size: larger;
+}
